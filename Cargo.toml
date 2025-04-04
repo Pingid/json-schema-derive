@@ -1,0 +1,23 @@
+[package]
+name = "json-schema-derive"
+version = "0.0.1"
+edition = "2021"
+description = "JSON Schema derive macro with arbitrary fields support"
+repository = "https://github.com/danielbeaven/json-schema-rs"
+license = "MIT"
+keywords = ["json-schema", "derive", "macro", "validation"]
+categories = ["encoding", "macros", "no-std", "json"]
+
+[workspace]
+members = [".", "json-schema-derive-macro"]
+
+[workspace.dependencies]
+json-schema-derive-macro = { path = "json-schema-derive-macro" }
+
+[dependencies]
+serde_json = "1.0"
+json-schema-derive-macro = { workspace = true }
+
+[dev-dependencies]
+serde = { version = "1.0", features = ["derive"] }
+jsonschema = "0.29"
