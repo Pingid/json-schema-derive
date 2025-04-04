@@ -1,0 +1,20 @@
+[package]
+name = "json-schema-derive-macro"
+version = "0.0.1"
+edition = "2021"
+description = "Proc-macro for JSON Schema generation"
+repository = "https://github.com/Pingid/json-schema-derive"
+license = "MIT"
+keywords = ["json-schema", "derive", "macro", "proc-macro"]
+categories = ["encoding", "development-tools", "no-std"]
+
+[features]
+serde-compat = []
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0", features = ["full"] }
+quote = "1.0"
+proc-macro2 = "1.0"
