@@ -494,7 +494,7 @@ dependencies = [
 
 [[package]]
 name = "json-schema-derive"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "json-schema-derive-macro",
  "jsonschema",
@@ -504,7 +504,7 @@ dependencies = [
 
 [[package]]
 name = "json-schema-derive-macro"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "proc-macro2",
  "quote",

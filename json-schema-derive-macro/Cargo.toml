@@ -1,6 +1,6 @@
 [package]
 name = "json-schema-derive-macro"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 description = "Proc-macro for JSON Schema generation"
 repository = "https://github.com/Pingid/json-schema-derive"
