@@ -8,14 +8,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-json-schema-derive = { git = "https://github.com/Pingid/json-schema-derive" }
-```
-
-For serde attribute support, enable the `serde-compat` feature:
-
-```toml
-[dependencies]
-json-schema-derive = { git = "https://github.com/Pingid/json-schema-derive", features = ["serde-compat"] }
+json-schema-derive = { version = "0.0.1", features = ["serde-compat"] }
 ```
 
 ## Usage
